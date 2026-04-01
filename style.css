@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #00001A;
+    color: #888;
+    font-family: "Google Sans", sans-serif;
+    font-size: 100%;
+}
+
+h1 {
+    color: aliceblue;
+    font-size: 3em;
+    text-align: center;
+}
+
+h2 {
+    color: aliceblue;
+    font-size: 2em;
+}
+
+.title {
+    padding: 50px 5%;
+    font-size: 1.25em;
+    background-color: rgba(88, 101, 242, 0.5);
+    background: linear-gradient(120deg, #18181f40,#5865f240);
+}
+
+.Section {
+    margin: auto 5%;
+    margin-bottom: 5%;
+}
+
+.Container {
+    padding: 10px;
+    margin: 8px 5px;
+    background-color: rgba(88, 101, 242, 0.1);
+    width: 30%;
+    min-width: 250px;
+    max-width: 350px;
+    height: 200px;
+    border-radius: 5px;
+    display: inline-table;
+}
+
+img{
+    width: 40%;
+    min-width: 250px;
+    max-width: 400px;
+}
+
+.Name {
+    font-size: 1.5em;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: #5865f2;
+}
+
+hr {
+    border: 1px solid #5865f240;
+}
+
+footer {
+    margin: 0;
+    padding: 50px 0;
+    font-size: 1em;
+    text-align: center;
+    background-color: #5865f240;
+}
