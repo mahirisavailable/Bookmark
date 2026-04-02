@@ -9,10 +9,53 @@ body {
     font-size: 100%;
 }
 
-h1 {
+.Container {
+    padding: 10px;
+    margin: 8px 5px;
+    background-color: rgba(30, 41, 59, 0.85);
+    max-width: 400px;
+    height: 150px;
+    border-radius: 10px;
+    border: 1px solid rgba(148, 163, 184, 0.12);
+    display: inline-table;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.navbar {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2%;
+    padding: 10px 5%;
+    background: rgba(11, 18, 32, 0.82);
+    backdrop-filter: blur(14px);
+    border-bottom: 1px solid rgba(52, 211, 153, 0.15);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.18);
+}
+
+.navbar a {
+    color: #94a3b8;
+    background-color: rgba(30, 41, 59, 0.85);
+    padding: 10px 10px;
+    border-radius: 5px;
+    border: 1px solid rgba(148, 163, 184, 0.12);
+    font-size: 0.8rem;
+    font-weight: 200;
+    transition: background-color 0.25s ease, border-color 0.25s ease, color 0.25s ease, transform 0.25s ease;
+}
+
+.navbar a:hover, .Container:hover {
     color: #e2e8f0;
-    font-size: 3em;
-    text-align: center;
+    background-color: rgba(52, 211, 153, 0.12);
+    border-color: rgba(52, 211, 153, 0.28);
+    transform: translateY(-2px);
 }
 
 h2 {
@@ -30,22 +73,16 @@ h2 {
 
 .Section {
     margin: 3% 5%;
+    scroll-margin-top: 100px;
 }
 
-.Container {
-    padding: 10px;
-    margin: 8px 5px;
-    background-color: rgba(30, 41, 59, 0.85);
-    max-width: 350px;
-    height: 175px;
-    border-radius: 10px;
-    border: 1px solid rgba(148, 163, 184, 0.12);
-    display: inline-table;
-}
-
-.Container:hover{
-    border: 1px solid #22c55e;
-    background-color: rgba(30, 41, 59, 1);
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 10px 5%;
 }
 
 img{
@@ -76,4 +113,17 @@ footer {
     font-size: 1em;
     text-align: center;
     background-color: #111827;
+}
+
+@media (max-width: 640px) {
+    .navbar {
+        justify-content: flex-start;
+        padding: 14px 4%;
+        gap: 10px;
+    }
+
+    .navbar a {
+        font-size: 0.9rem;
+        padding: 8px 12px;
+    }
 }
