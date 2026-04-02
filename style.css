@@ -18,6 +18,8 @@ h1 {
 h2 {
     color: aliceblue;
     font-size: 2em;
+    border-left: 5px solid #5865f2;
+    padding-left: 10px;
 }
 
 .title {
@@ -36,8 +38,8 @@ h2 {
     padding: 10px;
     margin: 8px 5px;
     background-color: rgba(88, 101, 242, 0.1);
-    width: 320px;
-    height: 200px;
+    max-width: 350px;
+    height: 175px;
     border-radius: 5px;
     display: inline-table;
 }
@@ -67,5 +69,5 @@ footer {
     padding: 50px 0;
     font-size: 1em;
     text-align: center;
-    background-color: #000000;
+    background-color: rgba(88, 101, 242, 0.1);
 }
