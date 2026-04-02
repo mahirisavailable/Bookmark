@@ -40,8 +40,12 @@ h2 {
     background-color: rgba(88, 101, 242, 0.1);
     max-width: 350px;
     height: 175px;
-    border-radius: 5px;
+    border-radius: 10px;
     display: inline-table;
+}
+
+.Container:hover{
+    border: 1px solid #5865f2;
 }
 
 img{
@@ -53,11 +57,12 @@ img{
 .Name {
     font-size: 1.5em;
     text-align: center;
+    color: #5865f2;
 }
 
 a {
     text-decoration: none;
-    color: #5865f2;
+    color: #888;
 }
 
 hr {
