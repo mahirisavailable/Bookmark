@@ -3,7 +3,7 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: #00001A;
+    background-color: #00001f;
     color: #888;
     font-family: "Google Sans", sans-serif;
     font-size: 100%;
@@ -25,8 +25,7 @@ h2 {
 .title {
     padding: 50px 5%;
     font-size: 1.25em;
-    background-color: rgba(88, 101, 242, 0.5);
-    background: linear-gradient(120deg, #18181f40,#5865f240);
+    background: linear-gradient(135deg, #18181f40,#5865f240);
 }
 
 .Section {
@@ -73,5 +72,5 @@ footer {
     padding: 50px 0;
     font-size: 1em;
     text-align: center;
-    background-color: rgba(88, 101, 242, 0.1);
+    background-color: #181830;
 }
